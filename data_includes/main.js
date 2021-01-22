@@ -5,7 +5,7 @@ PennController.DebugOff()
 
 
 
-PennController.Sequence("init", "intro", "PersonalData", "hinweise", "familiarization_start", "familiarization", "practice_one_start", randomize("practice_one"), "practice_two_start", randomize("practice_two"), "main_start",  "main_SOA100ms1", "break", "main_SOA100ms2", "break","main_SOA-100ms1", "break","main_SOA-100ms2", "break","main_SOA0ms1","break","main_SOA0ms1",  "send", "end" ) //order of main blocks can be changed here
+PennController.Sequence("init", "intro", "PersonalData", "hinweise", "familiarization_start", "familiarization", "practice_one_start", randomize("practice_one"), "practice_two_start", randomize("practice_two"), "main_start",  "main_SOA100ms1",  "break","main_SOA-100ms1", "break","main_SOA0ms1",  "send", "end" ) //order of main blocks can be changed here
 //         "intro", "familiarization_start", "familiarization", "practice_one_start", randomize("practice_one"), "practice_two_start",
 
 //CheckPreloaded(startsWith("Picture"))
@@ -718,7 +718,7 @@ PennController("main_start",
 
 //////////////////////////////////////////////////////////////////////
 // > 3 min
-PennController.Template("rand1-1.csv", variable =>
+PennController.Template("rand.csv", variable =>
 
                PennController("main_SOA0ms1",
 
@@ -850,7 +850,7 @@ PennController.Template("rand1-1.csv", variable =>
 
     //////////////////////////////////////////////////////////////////////
 
-    PennController.Template("rand1-2.csv", variable =>
+    PennController.Template("rand.csv", variable =>
 
                    PennController("main_SOA0ms2",
 
@@ -982,7 +982,7 @@ PennController.Template("rand1-1.csv", variable =>
 
 //////////////////////////////////////////////////////////////////////
 
-PennController.Template("rand2-1.csv", variable =>
+PennController.Template("rand.csv", variable =>
 
                PennController("main_SOA100ms1",
 
@@ -1120,7 +1120,7 @@ PennController.Template("rand2-1.csv", variable =>
 
     //////////////////////////////////////////////////////////////////////
 
-    PennController.Template("rand2-2.csv", variable =>
+    PennController.Template("rand.csv", variable =>
 
                    PennController("main_SOA100ms2",
 
@@ -1257,7 +1257,7 @@ PennController.Template("rand2-1.csv", variable =>
 
 //////////////////////////////////////////////////////////////////////
 
-PennController.Template("rand3-1.csv", variable =>
+PennController.Template("rand.csv", variable =>
 
                PennController("main_SOA-100ms1",
 
@@ -1396,7 +1396,7 @@ PennController.Template("rand3-1.csv", variable =>
 
 //////////////////////////////////////////////////////////////////////
 
-PennController.Template("rand3-2.csv", variable =>
+PennController.Template("rand.csv", variable =>
 
                    PennController("main_SOA-100ms2",
 
