@@ -1,9 +1,8 @@
 Pic,Item,Distractor,Condition
-Blut_rot.png,Blut,Träne,rel
-Erbse_gruen.png,Erbse,Hemd,unrel
-Brief_weiss.png,Brief,Paket,rel
-Fliege_schwarz.png,Fliege,Mücke,rel
-Blut_rot.png,Blut,Pflaume,unrel
-Erbse_gruen.png,Erbse,Möhre,rel
-Fliege_schwarz.png,Fliege,Boot,unrel
-Brief_weiss.png,Brief,Kuh,unrel
+Anzug_schwarz.png,Anzug,Bonbon,ue
+Fliege_schwarz.png,Fliege,Boot,ue
+Klavier_schwarz.png,Klavier,Orgel,ue
+Koffer_schwarz.png,Koffer,Hexhe,ue
+Lakritz_schwarz.png,Lakritz,Mücke,ue
+Panther_schwarz.png,Panther,Löwe,ue
+Reifen_schwarz.png,Reifen,Träne,ue

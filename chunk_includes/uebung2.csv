@@ -1,5 +1,8 @@
 Pic,Item,Distractor,Condition
-Blut_rot.png,Blut,Wolke,ue
-Brief_weiss.png,Brief,Auto,ue
-Erbse_gruen.png,Erbse,Buch,ue
-Fliege_schwarz.png,Fliege,Heft,ue
+Anzug_schwarz.png,Anzug,Wolke,ue
+Fliege_schwarz.png,Fliege,Auto,ue
+Klavier_schwarz.png,Klavier,Buch,ue
+Koffer_schwarz.png,Koffer,Heft,ue
+Lakritz_schwarz.png,Lakritz,Stift,ue
+Panther_schwarz.png,Panther,Glas,ue
+Reifen_schwarz.png,Reifen,Brot,ue
