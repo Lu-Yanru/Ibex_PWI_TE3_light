@@ -782,7 +782,7 @@ PennController.Template("rand.csv", variable =>
 
                newCanvas("Canvas2", 300, 400)
                .add(0, 0, getImage("Picture"))
-               .add(100, 150, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman"))
+               .add(100, 200, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman"))
                .print()
 
                ,
