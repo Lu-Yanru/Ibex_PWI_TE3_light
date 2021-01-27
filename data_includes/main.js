@@ -626,7 +626,7 @@ PennController.Template("uebung2.csv", variable =>
 
                newCanvas("Canvas2", 300, 400)
                .add(0, 0, getImage("Picture"))
-               .add(100, 150, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman") )
+               .add(150, 100, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman") )
                .print()
 
                ,
@@ -782,7 +782,7 @@ PennController.Template("rand.csv", variable =>
 
                newCanvas("Canvas2", 300, 400)
                .add(0, 0, getImage("Picture"))
-               .add(100, 150, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman"))
+               .add(150, 100, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman"))
                .print()
 
                ,
