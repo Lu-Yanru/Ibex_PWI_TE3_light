@@ -5,7 +5,7 @@ PennController.DebugOff()
 
 
 
-PennController.Sequence("init", "intro", "PersonalData", "hinweise", "familiarization_start", "familiarization", "practice_one_start", randomize("practice_one"), "practice_two_start", randomize("practice_two"), "main_start",  "main_SOA100ms1",  "break","main_SOA-100ms1", "break","main_SOA0ms1",  "send", "end" ) //order of main blocks can be changed here
+PennController.Sequence("init", "intro",  "hinweise", "familiarization_start",  "practice_one_start", "practice_two_start", randomize("practice_two"), "main_start",  "main_SOA100ms1",  "break","main_SOA-100ms1", "break","main_SOA0ms1",  "send", "end" ) //order of main blocks can be changed here
 //         "intro", "familiarization_start", "familiarization", "practice_one_start", randomize("practice_one"), "practice_two_start",
 
 //CheckPreloaded(startsWith("Picture"))
@@ -782,7 +782,7 @@ PennController.Template("rand.csv", variable =>
 
                newCanvas("Canvas2", 300, 400)
                .add(0, 0, getImage("Picture"))
-               .add(100, 200, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman"))
+               .add(100, 150, getText("Distractor").settings.css("font-size", "40px").settings.css("font-family", "Times New Roman"))
                .print()
 
                ,
